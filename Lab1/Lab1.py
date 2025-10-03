@@ -56,7 +56,7 @@ datasets = {
 # ---- Streamlit UI ----
 
 st.set_page_config(page_title="Logic Gates using Perceptron", page_icon="🧠")
-st.title("🧠 Logic Gates using Single Layer Perceptron")
+st.title("Logic Gates using Single Layer Perceptron")
 st.markdown("""
 This interactive app demonstrates how a **Single Layer Perceptron** can learn the behavior of basic logic gates (AND, OR, AND-NOT), 
 and why it **fails for XOR** due to non-linear separability.
